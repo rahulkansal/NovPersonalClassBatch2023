@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.407" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login Functionality" name="valid creds login" time="0.06">
+<system-out><![CDATA[
+When Initialize Selenium Webdriver..........................................passed
+Then Open the browser.......................................................passed
+Given I am on login page....................................................passed
+When Enter username and password............................................passed
+And Click on submit button..................................................passed
+Then verify Homepage title..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="valid creds login with given Values" time="0.009">
+<system-out><![CDATA[
+When Initialize Selenium Webdriver..........................................passed
+Then Open the browser.......................................................passed
+Given I am on login page....................................................passed
+When Enter username "Rahul" and password "Automation".......................passed
+And Click on submit button..................................................passed
+Then verify Homepage title..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
